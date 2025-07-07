@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+   .main{
+    position: relative;
+    
+    justify-content: center;
+    text-align: center;
+    top: 300px;
+    
+   }
+   button{
+    height: 100px;
+    width: 100px;
+
+    border-radius: 
+   }
+
+</style>
+
+<body>
+    <div class="main">
+    <button>Change <br> Colour</button>
+</div>
+</body>
+<script>
+   
+
+     const body=document.querySelector ('body');
+     const button=document.querySelector('button');
+     const colors=['violet', 'red', 'green', 'pink', 'black', 'yellow'];
+
+     body.style.backgroundColor='voilet';
+
+     button. addEventListener('click', function(){ 
+     const colorIndex=parseInt (Math. random()*colors. length);
+     body.style.backgroundColor=colors[colorIndex];
+})
+</script>
+</html>
